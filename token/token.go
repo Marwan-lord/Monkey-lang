@@ -38,6 +38,7 @@ const (
     Slash = "/"
     Comma = ","
     SemiColon = ";"
+    Colon = ":"
     GT = ">"
     LT = "<"
     EqualTo= "=="
