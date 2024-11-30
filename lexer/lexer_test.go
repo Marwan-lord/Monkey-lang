@@ -21,6 +21,9 @@ func TestNextToken(t *testing.T) {
     } else {
         return false;
     }
+
+    10 == 10;
+    10 != 9;
     `
 
 
@@ -93,6 +96,14 @@ func TestNextToken(t *testing.T) {
         {token.False, "false"},
         {token.SemiColon, ";"},
         {token.RBrace, "}"},
+        {token.Int, "10"},
+        {token.EqualTo, "=="},
+        {token.Int, "10"},
+        {token.SemiColon, ";"},
+        {token.Int, "10"},
+        {token.NotEqualTo, "!="},
+        {token.Int, "9"},
+        {token.SemiColon, ";"},
         {token.EOF, ""},
     }
 

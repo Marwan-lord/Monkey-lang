@@ -40,6 +40,8 @@ const (
     SemiColon = ";"
     GT = ">"
     LT = "<"
+    EqualTo= "=="
+    NotEqualTo= "!="
 
     LParen = "("
     RParen = ")"
