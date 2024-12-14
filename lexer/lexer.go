@@ -4,7 +4,7 @@ import "monkeylang/token"
 
 type Lexer struct {
 	input   string
-	pos     int // The current character position wich ch is currently on 
+	pos     int 
     readpos int // The Next character position
 	ch      byte
 }
