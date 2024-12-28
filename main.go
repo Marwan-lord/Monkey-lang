@@ -15,5 +15,4 @@ func main() {
 
 	fmt.Printf("Hello %s! Welcome the the Monkey Console\n", user.Username)
 	repl.Start(os.Stdin, os.Stdout)
-
 }
